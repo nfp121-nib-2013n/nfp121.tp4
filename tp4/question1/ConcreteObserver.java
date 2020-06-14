@@ -7,8 +7,8 @@ import java.util.Stack;
 /**
  * Décrivez votre classe ConcreteObserver ici.
  * 
- * @author (votre nom)
- * @version (un numéro de version ou une date)
+ * @author Agatha Khairallah
+ * @version 1.0
  */
 public class ConcreteObserver implements Observer {
 

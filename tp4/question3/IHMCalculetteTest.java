@@ -265,20 +265,16 @@ public class IHMCalculetteTest extends junit.framework.TestCase{
                 robot.delay(10);
                 robot.keyRelease(KeyEvent.VK_ADD);
             }else if(array[i]>='A'&&array[i]<='Z'){
-                robot.keyPress(KeyEvent.VK_SHIFT);
                 robot.keyPress((int)array[i]-(int)'A'+65);
                 robot.delay(10);
                 robot.keyRelease((int)array[i]-(int)'A'+65);
                 robot.delay(10);
-                robot.keyRelease(KeyEvent.VK_SHIFT);
             }else if(array[i]>='0'&&array[i]<='9'){
-                robot.keyPress(KeyEvent.VK_SHIFT);
                 robot.delay(10);
                 robot.keyPress(KeyEvent.VK_0+(int)(array[i]-'0'));
                 robot.delay(10);
                 robot.keyRelease(KeyEvent.VK_0+(int)(array[i]-'0'));
                 robot.delay(10);
-                robot.keyRelease(KeyEvent.VK_SHIFT);
             }
             robot.delay(10);
         }
